@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* para usar a fonte: font-family: 'Righteous', cursive;*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*PALETA DE CORES DO SITE CÓDIGOS:AZUL ESCURO #001A5A; AZUL MARINHO #0E1C3DM; #747be2  */
+
+#cabecalho{
+    /*Formatação do cabeçalho*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #0E1C3D;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #747be2;
+      }
+
+      h1{
+          margin-bottom: 20px;
+          color: #83c7ff;
+      }
+
+      h3{
+        margin: 30px;
+      }
+
+       a{
+        color: #83c7ff;
+        padding: 15px;
+      }
+
+       a:link{
+
+        color: #83c7ff;
+      }
+
+       a:hover{
+        background-color: #404694;
+        border-radius: 15px;
+        border: #091d4b;
+
+      }
+
+      a:active{
+
+        color: #747be2;
+      }
+      /*background-image:url(imagens/lp_mosaico1.webp);*/
+
+      body{
+          background: linear-gradient(68.15deg, #51375a 16.62%, #865247 85.61%);
+          background-attachment: fixed;
+          font-family: 'Righteous', cursive;
+          font-weight: 400; 
+      }
+
+        p{
+          margin-top: 15px;
+        }
+
+
+        #titulo-noticias{
+          text-align: center;
+          font-size: 2em;
+          font-weight: 400;
+        }
+
+        .data-postagem{
+          text-align: center;
+          margin-bottom: 200px;
+        }
+
+
+        .principal{
+            float: left;
+            width: 50%;
+            margin-right: 100px;
+            margin-left: 35px;
+            margin-bottom: 20px;
+            font-size: 18px;
+            color: #000000;
+        }
+
+
+        h4{
+          color: #83c7ff;
+          text-align: center;
+          font-size: 1.5em;
+          font-weight: 300;
+          margin: 20px;
+        }
+
+        .boxtitle{
+          padding: 10px;
+          border: solid 2px #747be2;
+          border-radius: 40%;
+          border-width: 3px;
+          background-color: #0E1C3D;
+
+        }
+
+        .barraLateral-1{
+          width: 20%;
+          float: right;
+          margin-left: auto;
+          margin-right: 5px;
+          
+        }
+
+        /*.barraLareral-1{
+          position: fixed;
+          margin-top: auto;
+          margin-left: auto;
+          margin-right: 5px;
+          margin-bottom: auto;
+        }*/
+
+        .linksBarra{
+          text-align: right;
+          display: flex;
+          flex-direction: column;
+          margin-right: 5px;
+          font-weight: 200;
+        }
+
+        .rodape{
+            /*Rodapé*/
+            clear: both;
+            text-align: center;
+            text-size-adjust: 1.2em;
+            font-weight: 300;
+            padding: 15px;
+            background: #0E1C3D;
+            margin-bottom: 0;
+            color: #83c7ff;
+            border-top: 2px solid #747be2;
+        }

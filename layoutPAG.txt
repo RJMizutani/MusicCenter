@@ -1,0 +1,2 @@
+colocar a imagem em preto e branco e diminuir o brilho da mesma
+assim poderemos usar a fonte na mesma coloração do menu cabeçalho
